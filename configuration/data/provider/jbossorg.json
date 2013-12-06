@@ -306,7 +306,7 @@
 					"idx_search_field" : "email",
 					"result_mapping"   : [{
 						"idx_result_field" : "code",
-						"target_field"     : "sys_contributor",
+						"target_field"     : "sys_contributors",
 						"value_default"    : "{author_name} <{author_email}>"
 					}]
 				}
