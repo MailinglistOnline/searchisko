@@ -2,12 +2,12 @@
     "jbossorg_mailing_list_message" : {
 		"_all" : {"enabled" : true},
         "properties" : {
-            "project"      : { "type" : "string", "index" : "no" },
-            "mail_list_category"    : { "type" : "string", "index" : "no" },
+            "replies"    : { "type" : "string", "index" : "no" },
             "message_id"   : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
             "message_id_original" : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
             "in_reply_to"  : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
             "references"   : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
+	    "replies"   : { "type" : "string", "store" : "yes" },
             "subject_original" : { "type" : "string", "store" : "yes", "term_vector" : "with_positions_offsets" },
             "subject" : { "type" : "string", "store" : "yes", "term_vector" : "with_positions_offsets" },
             "message_snippet" : { "type" : "string", "store" : "yes", "index" : "no" },
