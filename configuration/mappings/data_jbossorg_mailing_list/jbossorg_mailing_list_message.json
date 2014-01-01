@@ -4,12 +4,9 @@
         "properties" : {
             "replies"    : { "type" : "string", "index" : "no" },
             "message_id"   : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
-            "message_id_original" : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
             "in_reply_to"  : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
-            "references"   : { "type" : "string", "store" : "yes", "index" : "not_analyzed" },
 	    "replies"   : { "type" : "string", "store" : "yes" },
-            "subject_original" : { "type" : "string", "store" : "yes", "term_vector" : "with_positions_offsets" },
-            "subject" : { "type" : "string", "store" : "yes", "term_vector" : "with_positions_offsets" },
+            "subject" : { "type" : "string", "store" : "yes" },
             "message_snippet" : { "type" : "string", "store" : "yes", "index" : "no" },
             "first_text_message_without_quotes" : { "type" : "string", "store" : "yes", "term_vector" : "with_positions_offsets" },
             "first_text_message" : { "type" : "string", "store" : "yes", "term_vector" : "with_positions_offsets", "include_in_all" : true },
