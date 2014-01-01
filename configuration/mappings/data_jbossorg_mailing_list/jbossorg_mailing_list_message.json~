@@ -1,0 +1,31 @@
+{
+    "jbossorg_mailing_list_message" : {
+		"_all" : {"enabled" : true},
+        "properties" : {
+	    "_id"   : { "type" : "string", "store" : "yes" },
+	    "root"   : { "type" : "string" },
+            "message_id"   : { "type" : "string", "store" : "yes"},
+            "in_reply_to"  : { "type" : "string", "store" : "yes"},
+	    "replies"   : { "type" : "string", "store" : "yes" },
+            "subject" : { "type" : "string", "store" : "yes" },
+	    "from" : { "type" : "string", "store" : "yes" },
+	    "date" : { "type" : "string", "store" : "yes" },
+            "mailinglist" : {"type" : "string" },
+            "mainContent" : {
+                "type" : "object",
+                "properties" : {
+                    "content" : { "type" : "string" },
+                    "type" : { "type" : "string" },
+                }
+            },
+	    "attachments" : {
+                "type" : "object",
+                "properties" : {
+                    "content" : { "type" : "string" },
+                    "type" : { "type" : "string" },
+                }
+            },
+            "tags" : { "type" : "string" },
+        }
+    }
+}

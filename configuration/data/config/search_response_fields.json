@@ -1,8 +1,16 @@
 {
     "search_response_fields":[
         "_id",
+	"id",
         "sys_type",
-        "sys_title",
+        "title",
+	"mailinglist",
+	"tags",
+	"from",
+	"subject",
+	"text_message_snippet",
+	"replies",
+	"date",
         "sys_url_view",
         "sys_description",
         "sys_project",
@@ -12,6 +20,6 @@
         "sys_created",
         "sys_last_activity_date",
         "sys_rating_avg",
-			  "sys_rating_num"
+	"sys_rating_num"
     ]
 }

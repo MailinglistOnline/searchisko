@@ -1,11 +1,5 @@
 {
-    "sys_title":"2.5",
-    "sys_description":"",
-    "sys_content_plaintext":"",
-    "_all":"",
-    "sys_project_name":"0.5",
-    "sys_tags":"0.5",
-    "sys_contributors.fulltext":"",
-    "comment_body":"",
-    "message_attachments.content":"0.5"
+    "subject":"2.5",
+    "main_content.text":"1.5",
+    "tags":"3"
 }

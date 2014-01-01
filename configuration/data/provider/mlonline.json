@@ -1,0 +1,19 @@
+{
+  "name": "mlonline",
+  "description" : "Mailinglist online is an application for managing the mailing lists",
+  "contact_email" : "mbriskar@gmail.com",
+  "super_provider": true,
+  "pwd_hash": "zakladne",
+  "type": {
+    "mlonline_email": {
+      "description" : "All the emails in the mailing lists.",
+      "sys_type": "mailing_list_message",
+      "sys_content_content-type" : "text/plain",
+      "search_all_excluded" : "false",
+      "index": {
+        "name": "mlonline_email",
+        "type": "mlonline_emailpost"
+      }
+    }
+  }
+}
